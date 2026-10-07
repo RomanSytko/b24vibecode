@@ -1,0 +1,11 @@
+{
+  "name": "crm-deals-dashboard",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Дашборд аналитики по сделкам CRM Битрикс24, встроенный в портал Вайбкода",
+  "scripts": {
+    "start": "node server.js",
+    "test": "node test/retry429.mjs"
+  }
+}
